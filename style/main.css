@@ -1,0 +1,87 @@
+@import url(./fonts.css);
+
+:root {
+    --primary: #2F2F2F;
+    --secondary: #FFF;
+    --orange: #F59B00;
+
+    /* USE THIS */
+    --font-primary: "Poppins-Bold";
+    --font-primary-Medium: "Poppins-Medium";
+    --font-primary-Regular: "Poppins-Regular";
+
+    /* TEXT SIZE */
+    --text-font-size: 16px;
+    --title-font-size: 31px;
+    --subtitle-font-size: 20px;
+}
+
+/* GENERAL STYLES */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* MAIN START */
+/* WATER SECTION START */
+.water {
+    width: 100%;
+    padding-top: 130px;
+}
+
+.container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.water-nav {
+    display: flex;
+    column-gap: 150px;
+}
+
+.water-nav_links {
+    color: var(--primary);
+    font-family: var(--font-primary-Medium);
+    font-size: 20px;
+    line-height: 150%;
+    text-transform: capitalize;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.water-nav_links:hover {
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.product-items {
+    width: 264px;
+    height: 306px;
+    border-radius: 10px;
+    border: 1px solid #A3A3A3;
+}
+
+.product-img {
+    width: 263px;
+    height: 305px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* WATER SECTION END */
