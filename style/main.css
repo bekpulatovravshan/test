@@ -28,7 +28,7 @@
 /* WATER SECTION START */
 .water {
     width: 100%;
-    padding-top: 130px;
+    padding-block: 130px;
 }
 
 .container {
@@ -85,3 +85,65 @@
 }
 
 /* WATER SECTION END */
+/* CREATIV  SECTION START*/
+.creativ {
+    width: 100%;
+}
+
+.container-creativ {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.creativ-info {
+    margin: 0 auto;
+}
+
+.creativ-text {
+    color: var(--orange);
+    font-family: var(--font-primary-Medium);
+    font-size: var(--subtitle-font-size);
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.creativ-title {
+    width: 444px;
+    height: 129px;
+    color: var(--primary);
+    font-family: var(--font-primary);
+    font-size: var(--title-font-size);
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.creativ-subtext {
+    width: 444px;
+    height: 129px;
+    color: var(--primary);
+    font-family: var(--font-primary-Regular);
+    font-size: var(--text-font-size);
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: var(--orange);
+    color: var(--secondary);
+    font-family: var(--font-primary-Medium);
+    font-size: var(--text-font-size);
+    line-height: 120%;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: var(--secondary);
+    color: var(--orange);
+}
+
+/* CREATIV  SECTION END*/
